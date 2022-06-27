@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riwaz-e-Sultana | Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body onload="myfunction()">
+    <div id="loading"></div>
+
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href=""
+              ><img
+                src="Images/Borcelle-removebg-preview.png"
+                alt="logo"
+                width="120px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li class="button"><a href="index.html">Home</a></li>
+              <li class="button"><a href="Products.html">Products</a></li>
+              <li class="button"><a href="">About</a></li>
+              <li class="button"><a href="contact us.html">Contact Us</a></li>
+              <li class="button">
+                <a href="login-form-v4/Login_v4/account.html">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="" class="cart"
+            ><img src="images/cart.png" width="30px" height="30px" />
+          </a>
+          <a href="" class="menu-icon"
+            ><img
+              src="Images/menu.ico"
+              width="30px"
+              height="20px"
+              onclick="menutoggle()"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+ <!--Products-->
+<div class="row">
+    <div class="c-3">
+        <div class="card">
+            <img src="Images/Georgette 1.jpg" alt="" style="width:100%">
+            <h2>Georgette</h2>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button> Add to Cart</button></p>
+          </div>
+    </div>
+    <div class="c-3">
+        <div class="card">
+        <img src="Images/velvet_1.jpg" alt="" style="width:100%">
+        <h2>Velvet Suit</h2>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-2">
+            <h2>Follow us</h2>
+            <ul>
+              <li>
+                Facebook
+                <a
+                  href="https://www.facebook.com/riwazesultana"
+                  target="_blank"
+                >
+                  <img src="images/facebook logo_icon.png" alt="" />
+                </a>
+              </li>
+              <li>
+                Instagram
+                <a
+                  href="https://www.instagram.com/riwaz_e_sultana/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/instagram_brand_logo_social media_icon.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - Riwaz-e-Sultana</p>
+      </div>
+    </div>
+
+    <!--preloader-->
+    <script>
+      var preloader = document.getElementById("loading");
+      function myfunction() {
+        preloader.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
